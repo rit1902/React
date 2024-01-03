@@ -1,0 +1,12 @@
+.body {
+    background: url('E:\react project\petalpharm\src\assets\contact.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1,
+  p {
+    font-weight: bold;
+    color: white;
+  }
+  

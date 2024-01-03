@@ -1,0 +1,81 @@
+/* Health Checkup Form Styles */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('E:\react project\petalpharm\src\assets\hf.jpg');
+    background-size:contain;
+    background-position: center;
+    color: #333;
+}
+.health-checkup-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .health-checkup-form h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .form-group input[type='text'],
+  .form-group input[type='email'],
+  .form-group input[type='tel'],
+  .form-group input[type='number'],
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group select {
+    appearance: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, transparent 50%, #ccc 50%);
+    background-size: 8px 8px;
+    background-position: 0px 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
